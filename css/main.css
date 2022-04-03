@@ -1,0 +1,55 @@
+/*====GLOBAL IMPORTS=====*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+
+body{
+    font-family: 'Fira', sans-serif;
+    overflow-x: hidden;
+}
+/*==== MENU =====*/
+#menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+#menu form > button{
+    font-size: 18px;
+    font-weight: bold;
+}
+/*==== SLIDER DE IMAGENES =====*/
+.carousel-inner{
+    max-height: 22rem;
+}
+
+/*==== MEDIA QUERIES PANTALLA SM =====*/
+@media (max-width:768px){
+    #intro, #equipo{
+        width: 90% !important;
+    }
+    #equipo p{
+        display: none;
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+}
+/*==== FONDOS PARA LOS PRODUCTOS =====*/
+#fondo_teclados {
+    background-image: url("./Fondos/Fondo2.jpg");
+    background-attachment: fixed;
+}
+#fondo_ratones {
+    background-image: url("./Fondos/Fondo3.jpg");
+    background-attachment: fixed;
+}
+#fondo_audifonos {
+    background-image: url("./Fondos/Fondo4.jpg");
+    background-attachment: fixed;
+}
+/*==== MEDIA QUERIES PANTALLA ESTRA SM =====*/
+@media (max-width: 576px) {
+    .icon-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
